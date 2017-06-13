@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_background">
+
+    <ImageView
+        android:id="@+id/ic_tick"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/tick"
+        android:scaleType="fitCenter"
+        android:paddingTop="30dp"/>
+
+    <com.anupam.cabapp.CustomFonts.MyTextViewSemiBoldFont
+        android:id="@+id/text_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_tick"
+        android:text="Your cab has been booked successfully !!"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

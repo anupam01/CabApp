@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#65009688</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#E5E5E5</color>
+    <color name="dark_gray">#696969</color>
+    <color name="text_gray">#58595b</color>
+    <color name="gray_shade">#999999</color>
+
+    <color name="radius_color">#30009688</color>
+    <color name="radius_stroke">#55009688</color>
+</resources>

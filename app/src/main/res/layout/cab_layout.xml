@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.anupam.cabapp.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/cabs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/hatchback_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/image_margin">
+
+            <com.anupam.cabapp.CustomFonts.MyTextViewRegularFont
+                android:id="@+id/hatchback_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 min"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="12sp"
+                android:textColor="@color/text_gray"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/text_margin"/>
+
+            <ImageView
+                android:id="@+id/hatchback_icon"
+                android:layout_width="@dimen/image_dimen"
+                android:layout_height= "@dimen/image_dimen"
+                android:layout_marginTop="@dimen/small_margin"
+                android:src="@drawable/ic_hatchbag"
+                android:layout_gravity="center_horizontal"/>
+
+            <com.anupam.cabapp.CustomFonts.MyTextViewMediumFont
+                android:id="@+id/hatchback_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HatchBack"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="11sp"
+                android:textColor="@color/text_gray"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/small_margin"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sedan_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/image_margin">
+
+            <com.anupam.cabapp.CustomFonts.MyTextViewRegularFont
+                android:id="@+id/sedan_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 min"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="12sp"
+                android:textColor="@color/text_gray"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/text_margin"/>
+
+            <ImageView
+                android:id="@+id/sedan_icon"
+                android:layout_width="@dimen/image_dimen"
+                android:layout_height="@dimen/image_dimen"
+                android:layout_marginTop="@dimen/small_margin"
+                android:src="@drawable/ic_sedan"
+                android:layout_gravity="center" />
+
+            <com.anupam.cabapp.CustomFonts.MyTextViewMediumFont
+                android:id="@+id/sedan_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sedan"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="11sp"
+                android:textColor="@color/text_gray"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/small_margin"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/suv_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/image_margin">
+
+            <com.anupam.cabapp.CustomFonts.MyTextViewRegularFont
+                android:id="@+id/suv_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8 min"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="12sp"
+                android:textColor="@color/text_gray"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/text_margin"/>
+
+            <ImageView
+                android:id="@+id/suv_icon"
+                android:layout_width="@dimen/image_dimen"
+                android:layout_height="@dimen/image_dimen"
+                android:layout_marginTop="@dimen/small_margin"
+                android:src="@drawable/ic_suv"
+                android:layout_gravity="center"/>
+
+            <com.anupam.cabapp.CustomFonts.MyTextViewMediumFont
+                android:id="@+id/suv_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SUV"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="11sp"
+                android:textColor="@color/text_gray"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/small_margin"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.anupam.cabapp.CustomFonts.MyTextViewSemiBoldFont
+        android:id="@+id/btn_book"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"
+        android:text="BOOK NOW"/>
+
+</LinearLayout>
