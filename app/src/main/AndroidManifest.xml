@@ -15,7 +15,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyB7JXHkeU_WJo8OqZXbWcC1L7zpgAG-XJ8" />
+            android:value="AIzaSyChXC-cC9MWvj9l902GDpnulA4soO6StPk" />
 
 
         <activity android:name="com.anupam.cabapp.MainActivity">
